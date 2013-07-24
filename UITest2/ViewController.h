@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "UIInfinityPagingView.h"
+
 @interface ViewController : UIViewController
+{
+    IBOutlet UIInfinityPagingView * pages;
+}
 
 @end

@@ -14,16 +14,50 @@
 
 @implementation ViewController
 
+-(double)random
+{
+    return (arc4random() % 100 ) / 100.0f;
+}
+
+-(UIColor *)randon_color
+{
+    return [UIColor colorWithRed:[self random] green:[self random] blue:[self random] alpha:[self random]];
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSMutableArray * views = [[NSMutableArray alloc] init];
+    for (int index = 0 ;index < 100 ;index++)
+    {
+        UIView * view = [[UIView alloc] init];
+        [view setBackgroundColor:[self randon_color]];
+        [views addObject:view];
+    }
+    
+    [pages setViews:views];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)virtical:(UIButton*)sender
+{
+    [pages setIsVirtical:YES];
+}
+
+-(IBAction)horizontal:(UIButton*)sender
+{
+    [pages setIsVirtical:NO];
+}
+
+-(IBAction)clip:(UISwitch*)sender
+{
+    [pages setClipsToBounds:sender.isOn];
 }
 
 @end

@@ -18,6 +18,7 @@
 		6E15045C17717C1A000D8DC8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E15045B17717C1A000D8DC8 /* Default-568h@2x.png */; };
 		6E15045F17717C1A000D8DC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E15045E17717C1A000D8DC8 /* ViewController.m */; };
 		6E15046217717C1A000D8DC8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E15046017717C1A000D8DC8 /* ViewController.xib */; };
+		6E30953F1772DC9100D2EF81 /* UIInfinityPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E30953E1772DC9100D2EF81 /* UIInfinityPagingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +36,10 @@
 		6E15045917717C1A000D8DC8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6E15045B17717C1A000D8DC8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6E15045D17717C1A000D8DC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6E15045E17717C1A000D8DC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E15045E17717C1A000D8DC8 /* ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6E15046117717C1A000D8DC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6E30953D1772DC9100D2EF81 /* UIInfinityPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIInfinityPagingView.h; sourceTree = "<group>"; };
+		6E30953E1772DC9100D2EF81 /* UIInfinityPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInfinityPagingView.m; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		6E15044B17717C19000D8DC8 /* UITest2 */ = {
 			isa = PBXGroup;
 			children = (
+				6E70A689179F5C1F00E51CEB /* Classes */,
 				6E15045417717C1A000D8DC8 /* AppDelegate.h */,
 				6E15045517717C1A000D8DC8 /* AppDelegate.m */,
 				6E15045D17717C1A000D8DC8 /* ViewController.h */,
@@ -105,6 +109,15 @@
 				6E15045B17717C1A000D8DC8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E70A689179F5C1F00E51CEB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6E30953D1772DC9100D2EF81 /* UIInfinityPagingView.h */,
+				6E30953E1772DC9100D2EF81 /* UIInfinityPagingView.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +189,7 @@
 				6E15045217717C19000D8DC8 /* main.m in Sources */,
 				6E15045617717C1A000D8DC8 /* AppDelegate.m in Sources */,
 				6E15045F17717C1A000D8DC8 /* ViewController.m in Sources */,
+				6E30953F1772DC9100D2EF81 /* UIInfinityPagingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +312,7 @@
 				6E15046717717C1A000D8DC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
