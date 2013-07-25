@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6E15044117717C19000D8DC8"
                BuildableName = "UITest2.app"
-               BlueprintName = "UITest2"
-               ReferencedContainer = "container:UITest2.xcodeproj">
+               BlueprintName = "UIInfinityPagingView"
+               ReferencedContainer = "container:UIInfinityPagingView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E15044117717C19000D8DC8"
             BuildableName = "UITest2.app"
-            BlueprintName = "UITest2"
-            ReferencedContainer = "container:UITest2.xcodeproj">
+            BlueprintName = "UIInfinityPagingView"
+            ReferencedContainer = "container:UIInfinityPagingView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E15044117717C19000D8DC8"
             BuildableName = "UITest2.app"
-            BlueprintName = "UITest2"
-            ReferencedContainer = "container:UITest2.xcodeproj">
+            BlueprintName = "UIInfinityPagingView"
+            ReferencedContainer = "container:UIInfinityPagingView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E15044117717C19000D8DC8"
             BuildableName = "UITest2.app"
-            BlueprintName = "UITest2"
-            ReferencedContainer = "container:UITest2.xcodeproj">
+            BlueprintName = "UIInfinityPagingView"
+            ReferencedContainer = "container:UIInfinityPagingView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

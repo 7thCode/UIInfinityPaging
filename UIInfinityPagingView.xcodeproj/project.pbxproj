@@ -22,14 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E15044217717C19000D8DC8 /* UITest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E15044217717C19000D8DC8 /* UIInfinityPagingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIInfinityPagingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E15044517717C19000D8DC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6E15044717717C19000D8DC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E15044917717C19000D8DC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6E15044D17717C19000D8DC8 /* UITest2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITest2-Info.plist"; sourceTree = "<group>"; };
+		6E15044D17717C19000D8DC8 /* UIInfinityPagingView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIInfinityPagingView-Info.plist"; sourceTree = "<group>"; };
 		6E15044F17717C19000D8DC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E15045117717C19000D8DC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6E15045317717C19000D8DC8 /* UITest2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITest2-Prefix.pch"; sourceTree = "<group>"; };
+		6E15045317717C19000D8DC8 /* UIInfinityPagingView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIInfinityPagingView-Prefix.pch"; sourceTree = "<group>"; };
 		6E15045417717C1A000D8DC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E15045517717C1A000D8DC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6E15045717717C1A000D8DC8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		6E15043917717C19000D8DC8 = {
 			isa = PBXGroup;
 			children = (
-				6E15044B17717C19000D8DC8 /* UITest2 */,
+				6E15044B17717C19000D8DC8 /* UIInfinityPagingView */,
 				6E15044417717C19000D8DC8 /* Frameworks */,
 				6E15044317717C19000D8DC8 /* Products */,
 			);
@@ -68,7 +68,7 @@
 		6E15044317717C19000D8DC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E15044217717C19000D8DC8 /* UITest2.app */,
+				6E15044217717C19000D8DC8 /* UIInfinityPagingView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,7 +83,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6E15044B17717C19000D8DC8 /* UITest2 */ = {
+		6E15044B17717C19000D8DC8 /* UIInfinityPagingView */ = {
 			isa = PBXGroup;
 			children = (
 				6E70A689179F5C1F00E51CEB /* Classes */,
@@ -94,16 +94,17 @@
 				6E15046017717C1A000D8DC8 /* ViewController.xib */,
 				6E15044C17717C19000D8DC8 /* Supporting Files */,
 			);
+			name = UIInfinityPagingView;
 			path = UITest2;
 			sourceTree = "<group>";
 		};
 		6E15044C17717C19000D8DC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E15044D17717C19000D8DC8 /* UITest2-Info.plist */,
+				6E15044D17717C19000D8DC8 /* UIInfinityPagingView-Info.plist */,
 				6E15044E17717C19000D8DC8 /* InfoPlist.strings */,
 				6E15045117717C19000D8DC8 /* main.m */,
-				6E15045317717C19000D8DC8 /* UITest2-Prefix.pch */,
+				6E15045317717C19000D8DC8 /* UIInfinityPagingView-Prefix.pch */,
 				6E15045717717C1A000D8DC8 /* Default.png */,
 				6E15045917717C1A000D8DC8 /* Default@2x.png */,
 				6E15045B17717C1A000D8DC8 /* Default-568h@2x.png */,
@@ -123,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E15044117717C19000D8DC8 /* UITest2 */ = {
+		6E15044117717C19000D8DC8 /* UIInfinityPagingView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E15046517717C1A000D8DC8 /* Build configuration list for PBXNativeTarget "UITest2" */;
+			buildConfigurationList = 6E15046517717C1A000D8DC8 /* Build configuration list for PBXNativeTarget "UIInfinityPagingView" */;
 			buildPhases = (
 				6E15043E17717C19000D8DC8 /* Sources */,
 				6E15043F17717C19000D8DC8 /* Frameworks */,
@@ -135,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = UITest2;
+			name = UIInfinityPagingView;
 			productName = UITest2;
-			productReference = 6E15044217717C19000D8DC8 /* UITest2.app */;
+			productReference = 6E15044217717C19000D8DC8 /* UIInfinityPagingView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +150,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = seventhcode.;
 			};
-			buildConfigurationList = 6E15043D17717C19000D8DC8 /* Build configuration list for PBXProject "UITest2" */;
+			buildConfigurationList = 6E15043D17717C19000D8DC8 /* Build configuration list for PBXProject "UIInfinityPagingView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -161,7 +162,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E15044117717C19000D8DC8 /* UITest2 */,
+				6E15044117717C19000D8DC8 /* UIInfinityPagingView */,
 			);
 		};
 /* End PBXProject section */
@@ -275,9 +276,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UITest2/UITest2-Prefix.pch";
-				INFOPLIST_FILE = "UITest2/UITest2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "UITest2/UIInfinityPagingView-Prefix.pch";
+				INFOPLIST_FILE = "UITest2/UIInfinityPagingView-Info.plist";
+				PRODUCT_NAME = UIInfinityPagingView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -286,9 +287,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UITest2/UITest2-Prefix.pch";
-				INFOPLIST_FILE = "UITest2/UITest2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "UITest2/UIInfinityPagingView-Prefix.pch";
+				INFOPLIST_FILE = "UITest2/UIInfinityPagingView-Info.plist";
+				PRODUCT_NAME = UIInfinityPagingView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -296,7 +297,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E15043D17717C19000D8DC8 /* Build configuration list for PBXProject "UITest2" */ = {
+		6E15043D17717C19000D8DC8 /* Build configuration list for PBXProject "UIInfinityPagingView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E15046317717C1A000D8DC8 /* Debug */,
@@ -305,7 +306,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E15046517717C1A000D8DC8 /* Build configuration list for PBXNativeTarget "UITest2" */ = {
+		6E15046517717C1A000D8DC8 /* Build configuration list for PBXNativeTarget "UIInfinityPagingView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E15046617717C1A000D8DC8 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:UITest2.xcodeproj">
+      location = "self:UIInfinityPagingView.xcodeproj">
    </FileRef>
 </Workspace>
